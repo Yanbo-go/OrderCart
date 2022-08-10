@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(background.jpg);
+  /*background-color:black ;*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container {
+  width: 1000px;
+  text-align: center;
+  background: #22a6b3;
+  border-radius: 10px;
+  margin-top: 20px;
+  display:block; 
+  margin:auto;
+}
+
+.container h1 {
+  color: white;
+}
+
+.container form {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.container input[type="text"],.container 
+input[type="number"], .container select  {
+  margin-right: 10px;  
+  padding-left: 5px;
+}
+
+.container input[type="text"]:focus {
+  outline: 0;
+}
+
+
+
+.container input[type="submit"] {
+  flex: 3;
+  background: white;
+  font-weight: 900;
+  margin-left: 6px;  
+  padding-left: 5px;
+  color: red;
+}
+
+.container input {
+  height: 40px;
+  border-width: 0;
+  border-radius: 3px;
+  color: #535c68;
+}
+
+.container ul,
+.container ol {
+  list-style: none;
+  padding: 0 35px;
+}
+
+.container ul,
+.container ol {
+  padding-bottom: 20px;
+}
+
+.container li {
+  background: white;
+  padding: 2px 0 2px 25px;
+  font-size: .9em;
+  color: #535c68;
+  position: relative;
+}
+
+.container li:nth-last-of-type(2n) {
+  background: #7ed6df;
+  color: white;
+}
+
+.container li span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+  color: white;
+  background: #ff7979;
+  cursor: pointer;
+}
+
+.container p {
+ text-align: left;
+ padding: 0 35px;
+}
+
+.container button {
+ margin-top:20px ;
+ text-align: left;
+ padding: 5px 50px;
+ color: red;
+}
+
+.container2 img {
+  width: 1000px;
+  text-align: center;
+  background: #22a6b3;
+  border-radius: 10px;
+  display:block; 
+  margin:auto;
+}  
+
+.container select {
+ text-align: center;
+ padding: 3px;
+ 
+}
+
+#op0, #op1,#op11,#op17,#op24 {
+ color: red;
+}
+
+#opm0, #opm14{
+ color: red;
+}
+
+p {
+  color: red;
+}
